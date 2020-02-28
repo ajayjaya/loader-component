@@ -23,11 +23,6 @@ export class LoaderComponent implements OnInit, OnChanges {
     this.loaderService.loaderParamChange.subscribe((param) => {
       if (param) {
         this.params = param;
-        if (typeof param.autoHide !== 'undefined') {
-          this.autoHide = param.autoHide;
-        } else {
-            this.autoHide = true;
-          }
           this.showLoader();
         }
         else {
@@ -45,16 +40,9 @@ export class LoaderComponent implements OnInit, OnChanges {
   }
 
   hideLoader() {
-    if (this.autoHide) {
-      this.hide();
-    }
-  }
-
-  private hide() {
     this.isVisible = false;
     clearInterval(this.interval);
   }
-
   animate() {
     this.interval = setInterval(() => {
       if (this.anim) {
