@@ -1,6 +1,6 @@
 # Angular Loader Component
 
-This component is used in a component when there is API Call pending.
+This reusable component is used in a application when there is API Call pending.
 
 ## Usage
 
