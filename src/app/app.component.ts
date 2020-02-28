@@ -13,7 +13,6 @@ export class AppComponent {
     this.loaderService.showLoader({
       title: 'Title Goes Here',
       desc: 'Desc Goes Here',
-      autoHide: false
     });
   }
 }
