@@ -8,7 +8,7 @@ This component is used in a component when there is API Call pending.
 
 ## Preview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p><img src="https://github.com/ajayjaya/steps-tracker/blob/master/src/assets/images/preview.JPG"></p>
 
 ## Demo link
 
