@@ -4,11 +4,11 @@ This component is used in a component when there is API Call pending.
 
 ## Usage
 
-<app-common-loader></app-common-loader>
+<p>&lt;app-common-loader&gt;&lt/app-common-loader&gt;</p>
 
 ## Preview
 
-<p><img src="https://github.com/ajayjaya/steps-tracker/blob/master/src/assets/images/preview.JPG"></p>
+<p><img src="https://github.com/ajayjaya/loader-component/blob/master/src/assets/images/preview.JPG"></p>
 
 ## Demo link
 
